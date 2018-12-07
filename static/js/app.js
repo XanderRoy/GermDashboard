@@ -37,7 +37,7 @@ function buildCharts(sample) {
     // HINT: You will need to use slice() to grab the top 10 sample_values,
     // otu_ids, and labels (10 each).
   var url = `/samples/${sample}`;
-  d3.json(url).then(function(data) {l
+  d3.json(url).then(function(data) {
     var layout = {
       title: `Sample ${sample}`,
       showlegend: true,
