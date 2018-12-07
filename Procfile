@@ -1,1 +1,1 @@
-web: gunicorn bellybiodiversity-demo.app:app
+web: gunicorn bellybiodiversity-demo.app:app  --preload
